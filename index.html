@@ -73,6 +73,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/eruda/3.0.1/eruda.min.js" integrity="sha512-KkkY/3auRhaXDFzFMpwtZ+BrS8EBQ+GfiBxdJ9jGMi6Gg74/sYbq/IZpY593pkNjTmbeRfBwjpZo+7gcpH45Ww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
+      eruda.init()
       var retryExpanding = setInterval(()=>{
           try{
             window.Telegram.WebApp.expand()
